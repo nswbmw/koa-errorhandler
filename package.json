@@ -1,0 +1,35 @@
+{
+  "name": "koa-errorhandler",
+  "description": "Error handler middleware for koa.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 3000 test/*.test.js"
+  },
+  "keywords": [
+    "koa",
+    "error",
+    "errorhandler",
+    "middleware"
+  ],
+  "dependencies": {
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "koa": "*",
+    "supertest": "*",
+    "co-sleep": "*"
+  },
+  "author": {
+    "name": "nswbmw",
+    "email": "nswbmw1992@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/koa-errorhandler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nswbmw/koa-errorhandler/issues"
+  }
+}
